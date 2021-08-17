@@ -71,6 +71,7 @@ export function MobileNavLinks() {
     "about",
     "current projects",
     "how can you help",
+    "team",
     "contact us",
   ];
   return (
