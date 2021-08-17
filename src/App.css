@@ -4,6 +4,7 @@
 
 body{
   background-color: #121212;
+  scroll-behavior: smooth;
 }
 
 body::-webkit-scrollbar {
@@ -16,3 +17,32 @@ body::-webkit-scrollbar-thumb {
   background-color: hsla(0,0%,100%,0.4);
   border-radius: 20px; 
 }
+
+
+blockquote{
+  text-align:right;
+  font-size: 1.4em;
+  width:65%;
+  margin:50px auto;
+  font-style:normal;
+  color: #ffffff;
+  padding:1.2em 30px 1.2em 75px;
+  border-bottom:8px solid #efd249 ;
+  line-height:1.6;
+  position: relative;
+  background:#121212;
+}
+
+blockquote::before{
+    font-size: 200px;
+  font-family:Arial;
+  content: "\201C";
+  color:#efd249;
+  position: absolute;
+  left: 10px;
+  top:-45px;
+}
+
+
+
+
