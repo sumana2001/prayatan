@@ -1,4 +1,4 @@
-const teamData = [
+const teamData1 = [
   {
     id: 1,
     name: "Meena Rawat",
@@ -64,4 +64,59 @@ const teamData = [
   },
 ];
 
-export default teamData;
+const teamData2 = [
+    {
+      id: 1,
+      name: "Navya Mishra",
+      image:
+        "https://images.unsplash.com/photo-1597223557154-721c1cecc4b0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=80",
+      desc: "After completing her Master’s degree in Automation and Control from Newcastle University, Navya now works as a Business Analyst at Valiance Solutions. Being the first ever volunteer at Prayatan in 2010, she had big dreams for Prayatan’s future which motivated her to start social work as a permanent member for the organisation. She has positively contributed to Prayatan’s growth through various fundraisers, awareness campaigns and providing resources for educating the underprivileged.",
+    },
+];
+
+const teamData3 = [
+    {
+      id: 1,
+      name: "Trianka",
+      image:
+        "https://images.unsplash.com/photo-1597223557154-721c1cecc4b0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=80",
+      desc: "A creative technology consultant by profession and a passionate social worker at heart, Trianka brings her creative expertise as a graphic designer to Prayatan’s online presence. She has previously worked with several schools for the differently abled and supported them to participate in social events and cultural performances.",
+    },
+    {
+      id: 2,
+      name: "Sumana Basu",
+      image:
+        "https://images.unsplash.com/photo-1597223557154-721c1cecc4b0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=80",
+      desc: "Currently pursuing a degree in BTech from the National Institute of Technology in Rourkela, Sumana has been an active member of the Rotary International organisation for four years. She has spent two years educating underprivileged kids at Vanhishikha and has now joined Prayatan as a web designer.",
+    },
+    {
+      id: 3,
+      name: "Annie Anand",
+      image:
+        "https://images.unsplash.com/photo-1597223557154-721c1cecc4b0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=80",
+      desc: "A master’s graduate in Social Policy and Research from University College London, Annie brings her expertise in this field as the social advisor and content creator for Prayatan’s online presence. She has previously taught children at Cheshire Home for a year and worked with Project Fuel understanding life experiences of people from an educationist's view.",
+    },
+    {
+      id: 4,
+      name: "Teja",
+      image:
+        "https://images.unsplash.com/photo-1597223557154-721c1cecc4b0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=80",
+      desc: "With an undergraduate degree in Engineering and passion for cinematography, Teja is currently a freelance film-maker based out of Bangalore. He has been an active part of all social causes since college and has been a valuable addition to Prayatan as a videographer and movie editor since 2021. ",
+    },
+    {
+      id: 5,
+      name: "Aparna",
+      image:
+        "https://images.unsplash.com/photo-1597223557154-721c1cecc4b0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=80",
+      desc: "Aparna holds an MBA in Human Resources and has previously been an integral part of various Non governmental organisations in Chandigarh while pursuing her undergraduate degree in Sociology. She joined Prayatan in 2021 with the same zest to educate and help provide for the underprivileged.",
+    },
+    {
+      id: 6,
+      name: "Vrinda Jain",
+      image:
+        "https://images.unsplash.com/photo-1597223557154-721c1cecc4b0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=80",
+      desc: "With a graduate degree in Economics from the Delhi School of Economics, Vrinda has been a part of various philanthropy activities during her college. She has previously worked on a research project to analyse the deprivation of the underprivileged Rohingya refugees in Delhi. She is a firm believer that education is an important way to curb the growing inequality in India and is helping Prayatan tread further in the same direction.",
+    },
+  ];
+
+export {teamData1,teamData2, teamData3};
