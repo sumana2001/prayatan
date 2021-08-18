@@ -4,10 +4,12 @@
 
 .App {
   text-align: center;
+  overflow-x: hidden;
 }
 
 body{
   background-color: #121212;
+  margin: 0 auto;
 }
 
 body::-webkit-scrollbar {
@@ -32,11 +34,56 @@ body::-webkit-scrollbar-thumb {
   border-radius: 20px; 
 }
 
+.hero-img {
+  max-height: 600px;
+}
+
+
+.heading{
+  text-align: center;
+  color: white;
+  font-family: 'Playfair Display SC', serif;
+  text-decoration: underline;
+  text-decoration-color: #f0d44d;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 5px;
+}
+
+
+.about-logo{
+  width: 50%;
+  height: 80%;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-history{
+  margin-left: -10%;
+  margin-right: 15%;
+  color: white;
+  text-align: center;
+  font-size: 17px;
+}
+
+@media only screen and (max-width: 900px){
+	.about-history{
+    margin: 5%;
+    margin-top: 0;
+  }
+  .about-logo{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+}
+
 blockquote{
   text-align:right;
   font-size: 1.4em;
   width:65%;
-  margin:50px auto;
+  margin:10px auto;
   font-style:normal;
   color: #ffffff;
   padding:1.2em 30px 1.2em 75px;
@@ -59,6 +106,73 @@ blockquote::before{
 .team{
   margin:5%;
 }
+
+
+.deck{
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.card-space:hover .card{
+  transform: rotateY(-180deg);
+}
+
+.card{
+  margin: 5%;
+  border-radius: 10px;
+  height: 310px;
+  box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.1);
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+  background-color: rgb(237, 206, 50);
+}
+
+.face{
+  border-radius: 10px;
+  color: white;
+}
+
+.front{
+  text-align: center;
+  backface-visibility: hidden;
+  transform: rotateY(0deg);
+  margin: 0 auto;
+}
+.back{
+  text-align: center;
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+}
+
+.faceh1{
+  margin: 0 auto;
+  padding-top: 30%;
+	color: #343434;
+	font-weight: 900;
+	font-family: 'Ultra', sans-serif;   
+	font-size: 4.5em;
+	text-transform: uppercase;
+	text-shadow: 0 2px white, 0 3px #777;
+}
+
+.facep{
+  margin: 0 auto;
+  text-align: left;
+  padding: 5%;
+  margin-top: -30%;
+	color: #000;
+	font-family: 'Ultra', sans-serif;  
+}
+
+.facep2{
+  margin: 0 auto;
+  text-align: left;
+  padding: 5%;
+  margin-top: -55%;
+	color: #000;
+	font-family: 'Ultra', sans-serif;  
+}
+
 
 
 
