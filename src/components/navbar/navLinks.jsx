@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 
 const NavLinksContainer = styled.nav`
@@ -67,7 +67,6 @@ const ActiveLink = styled.li`
     width: 100%;
     height: 4px;
     background-color: #fdd831;
-    
   }
 
   &:hover::after {
@@ -81,43 +80,46 @@ const Link = styled.a`
   font-size: inherit;
   cursor: pointer;
   text-transform: capitalize;
+  &::after {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #fdd831;
+    transform: scaleY(0);
+    transition: transform 0.3s;
+    transform-origin: 50% 100%;
+  }
+
+  &:hover::after {
+    transform: scaleY(1);
+  }
 `;
 
 export function NavLinks() {
-  // setLocation when user clicks on link, default location is window.location.hash
-  const [location, setLocation] = useState(window.location.hash)
-  const links = [
-    "about",
-    "current projects",
-    "how can you help",
-    "team",
-    "contact us",
-  ];
-
-  // Conditionally render either the 'active' link or the regular link depending on location
-  const renderLinks = () => {
-    return links.map(link => {
-      let hash = '#' + link
-      if (location === hash) {
-        return (
-          <ActiveLink>
-            <Link href={hash}>{link}</Link>
-          </ActiveLink>
-        )
-      } else {
-        return (
-          <LinkItem onClick={() => setLocation(hash)}>
-            <Link href={hash}>{link}</Link>
-          </LinkItem>
-        )
-      }
-    })
-  }
-  
   return (
     <NavLinksContainer>
       <LinksWrapper>
-        {renderLinks()}
+        <LinkItem>
+          <Link href="#home">Home</Link>
+        </LinkItem>
+        <LinkItem>
+          <Link href="#about">About</Link>
+        </LinkItem>
+        <LinkItem>
+          <Link href="#projects">Current Projects</Link>
+        </LinkItem>
+        <LinkItem>
+          <Link href="#help">How Can You Help</Link>
+        </LinkItem>
+        <LinkItem>
+          <Link href="#team">Team</Link>
+        </LinkItem>
+        <LinkItem>
+          <Link href="#contact">Contact Us</Link>
+        </LinkItem>
       </LinksWrapper>
     </NavLinksContainer>
   );

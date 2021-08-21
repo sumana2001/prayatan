@@ -1,3 +1,4 @@
+
 import React, { useState } from "react";
 import styled from "styled-components";
 import Accessibility from "./accessibility";
@@ -67,27 +68,29 @@ const Marginer = styled.div`
 
 export function MobileNavLinks() {
   const [isOpen, setOpen] = useState(false);
-  const links = [
-    "about",
-    "current projects",
-    "how can you help",
-    "team",
-    "contact us",
-  ];
   return (
     <NavLinksContainer>
       <MenuToggle isOpen={isOpen} toggle={() => setOpen(!isOpen)} />
       {isOpen && (
         <LinksWrapper>
-          {links.map((link) => {
-            return (
-              <LinkItem>
-                <Link href={"#" + link} onClick={() => setOpen(false)}>
-                  {link}
-                </Link>
-              </LinkItem>
-            );
-          })}
+           <LinkItem>
+          <Link href="#home">Home</Link>
+        </LinkItem>
+        <LinkItem>
+          <Link href="#about" onClick={() => setOpen(false)}>About</Link>
+        </LinkItem>
+        <LinkItem>
+          <Link href="#projects" onClick={() => setOpen(false)}>Current Projects</Link>
+        </LinkItem>
+        <LinkItem>
+          <Link href="#help" onClick={() => setOpen(false)}>How Can You Help</Link>
+        </LinkItem>
+        <LinkItem>
+          <Link href="#team" onClick={() => setOpen(false)}>Team</Link>
+        </LinkItem>
+        <LinkItem>
+          <Link href="#contact" onClick={() => setOpen(false)}>Contact Us</Link>
+        </LinkItem>
           <Marginer />
           <Accessibility />
         </LinksWrapper>

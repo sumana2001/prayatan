@@ -8,6 +8,7 @@ import Hero from "./components/hero";
 import ScrollTop from './components/scrollTop';
 import About from './components/about/about';
 import Team from "./components/team/team";
+import Help from "./components/help/help";
 
 const loadercss = css`
   margin: 0;
@@ -43,6 +44,7 @@ function App() {
         </div>
         <About/>
         <Team/>
+        <Help/>
         <ScrollTop/>
       </div>
       <Footer />

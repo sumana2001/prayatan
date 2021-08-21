@@ -4,9 +4,6 @@ import {teamData1, teamData2, teamData3} from './teamData';
 import { Grid } from '@material-ui/core';
 import styled from 'styled-components';
 
-const Main=styled.h1`
-    color:white;
-`
 const Head=styled.h1`
     color:white;
 `
@@ -30,7 +27,7 @@ function team()
 {
   return (
     <div className='team'>
-      <Main>TEAM</Main>
+      <h1 className="heading">Team</h1>
       <Head>Board of directors</Head>
       <Grid lg={12} item container spacing={3} align='center'>
         {teamData1.map(createCard)}

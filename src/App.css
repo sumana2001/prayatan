@@ -1,10 +1,10 @@
 *{
   scroll-behavior: smooth;
+  scroll-padding-top: 100px;
 }
 
 .App {
   text-align: center;
-  overflow-x: hidden;
 }
 
 body{
