@@ -1,4 +1,4 @@
-*{
+* {
   scroll-behavior: smooth;
   scroll-padding-top: 100px;
 }
@@ -7,50 +7,52 @@
   text-align: center;
 }
 
-body{
+.container {
+  overflow-x: hidden;
+}
+
+body {
   background-color: #121212;
   margin: 0 auto;
 }
 
 body::-webkit-scrollbar {
-  width: 7px;   
+  width: 7px;
 }
 body::-webkit-scrollbar-track {
   background-color: #242526;
 }
 body::-webkit-scrollbar-thumb {
-  background-color: hsla(0,0%,100%,0.4);
-  border-radius: 20px; 
+  background-color: hsla(0, 0%, 100%, 0.4);
+  border-radius: 20px;
 }
 
 *::-webkit-scrollbar {
-  width: 4px;   
+  width: 4px;
 }
 *::-webkit-scrollbar-track {
   background-color: #242526;
 }
 *::-webkit-scrollbar-thumb {
-  background-color: hsla(0,0%,100%,0.4);
-  border-radius: 20px; 
+  background-color: hsla(0, 0%, 100%, 0.4);
+  border-radius: 20px;
 }
 
 .hero-img {
   max-height: 600px;
 }
 
-
-.heading{
+.heading {
   text-align: center;
   color: white;
-  font-family: 'Playfair Display SC', serif;
+  font-family: "Playfair Display SC", serif;
   text-decoration: underline;
   text-decoration-color: #f0d44d;
   text-decoration-thickness: 3px;
   text-underline-offset: 5px;
 }
 
-
-.about-logo{
+.about-logo {
   width: 50%;
   height: 80%;
   border-radius: 50%;
@@ -59,7 +61,7 @@ body::-webkit-scrollbar-thumb {
   margin-right: auto;
 }
 
-.about-history{
+.about-history {
   margin-left: -10%;
   margin-right: 15%;
   color: white;
@@ -67,57 +69,56 @@ body::-webkit-scrollbar-thumb {
   font-size: 17px;
 }
 
-@media only screen and (max-width: 900px){
-	.about-history{
+@media only screen and (max-width: 900px) {
+  .about-history {
     margin: 5%;
     margin-top: 0;
   }
-  .about-logo{
+  .about-logo {
     display: block;
-  margin-left: auto;
-  margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
-blockquote{
-  text-align:right;
+blockquote {
+  text-align: right;
   font-size: 1.4em;
-  width:65%;
-  margin:10px auto;
-  font-style:normal;
+  width: 65%;
+  margin: 10px auto;
+  font-style: normal;
   color: #ffffff;
-  padding:1.2em 30px 1.2em 75px;
-  border-bottom:8px solid #efd249 ;
-  line-height:1.6;
+  padding: 1.2em 30px 1.2em 75px;
+  border-bottom: 8px solid #efd249;
+  line-height: 1.6;
   position: relative;
-  background:#121212;
+  background: #121212;
 }
 
-blockquote::before{
-    font-size: 200px;
-  font-family:Arial;
+blockquote::before {
+  font-size: 200px;
+  font-family: Arial;
   content: "\201C";
-  color:#efd249;
+  color: #efd249;
   position: absolute;
   left: 10px;
-  top:-45px;
+  top: -45px;
 }
 
-.team{
-  margin:5%;
+.team {
+  margin: 5%;
 }
 
-
-.deck{
+.deck {
   max-width: 800px;
   margin: 0 auto;
 }
 
-.card-space:hover .card{
+.card-space:hover .card {
   transform: rotateY(-180deg);
 }
 
-.card{
+.card {
   margin: 5%;
   border-radius: 10px;
   height: 310px;
@@ -127,53 +128,72 @@ blockquote::before{
   background-color: rgb(237, 206, 50);
 }
 
-.face{
+.face {
   border-radius: 10px;
   color: white;
 }
 
-.front{
+.front {
   text-align: center;
   backface-visibility: hidden;
   transform: rotateY(0deg);
   margin: 0 auto;
 }
-.back{
+.back {
   text-align: center;
   transform: rotateY(180deg);
   backface-visibility: hidden;
 }
 
-.faceh1{
+.faceh1 {
   margin: 0 auto;
   padding-top: 30%;
-	color: #343434;
-	font-weight: 900;
-	font-family: 'Ultra', sans-serif;   
-	font-size: 4.5em;
-	text-transform: uppercase;
-	text-shadow: 0 2px white, 0 3px #777;
+  color: #343434;
+  font-weight: 900;
+  font-family: "Ultra", sans-serif;
+  font-size: 4.5em;
+  text-transform: uppercase;
+  text-shadow: 0 2px white, 0 3px #777;
 }
 
-.facep{
+.facep {
   margin: 0 auto;
   text-align: left;
   padding: 5%;
   margin-top: -30%;
-	color: #000;
-	font-family: 'Ultra', sans-serif;  
+  color: #000;
+  font-family: "Ultra", sans-serif;
 }
 
-.facep2{
+.facep2 {
   margin: 0 auto;
   text-align: left;
   padding: 5%;
   margin-top: -55%;
-	color: #000;
-	font-family: 'Ultra', sans-serif;  
+  color: #000;
+  font-family: "Ultra", sans-serif;
 }
 
+.project {
+  color: white;
+  overflow-x: hidden;
+  margin-bottom: 5%;
+}
 
+.project-img {
+  width: 80%;
+  padding: 0 5%;
+}
 
+.project_desc {
+  padding: 0 5%;
+  line-height: 1.3rem;
+}
 
+.project_heading {
+  padding: 0 5%;
+}
 
+.project_desc a {
+  color: rgb(237, 206, 50);
+}

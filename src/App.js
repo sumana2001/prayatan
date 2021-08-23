@@ -5,10 +5,11 @@ import Footer from "./components/footer/footer";
 import "./App.css";
 import { Navbar } from "./components/navbar";
 import Hero from "./components/hero";
-import ScrollTop from './components/scrollTop';
-import About from './components/about/about';
+import ScrollTop from "./components/scrollTop";
+import About from "./components/about/about";
 import Team from "./components/team/team";
 import Help from "./components/help/help";
+import Project from "./components/projects/project";
 
 const loadercss = css`
   margin: 0;
@@ -38,14 +39,15 @@ function App() {
   ) : (
     <div className="App">
       <Navbar />
-      <div>
+      <div className="container">
         <div className="hero" id="back-to-top-anchor">
           <Hero />
         </div>
-        <About/>
-        <Team/>
-        <Help/>
-        <ScrollTop/>
+        <About />
+        <Project />
+        <Team />
+        <Help />
+        <ScrollTop />
       </div>
       <Footer />
     </div>
