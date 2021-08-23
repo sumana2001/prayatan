@@ -38,6 +38,10 @@ body::-webkit-scrollbar-thumb {
   border-radius: 20px;
 }
 
+a {
+  color: rgb(237, 206, 50);
+}
+
 .hero-img {
   max-height: 600px;
 }
@@ -194,10 +198,6 @@ blockquote::before {
   padding: 0 5%;
 }
 
-.project_desc a {
-  color: rgb(237, 206, 50);
-}
-
 .donate_container {
   background-color: rgb(237, 206, 50);
   width: 100%;
@@ -235,4 +235,36 @@ blockquote::before {
   .donate_btn {
     font-size: 1rem;
   }
+}
+
+.help_container {
+  color: #fff;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.help_quote {
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  /* .help_quote{
+    width: 90%;
+    margin: 0 auto;
+  } */
+  .help_container {
+    width: 90%;
+  }
+}
+
+.help_container span {
+  font-weight: 800;
+}
+
+.help_container li {
+  text-align: left;
+  margin-bottom: 2%;
+  font-size: 1.1rem;
+  line-height: 1.6rem;
 }

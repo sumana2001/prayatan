@@ -47,8 +47,8 @@ function App() {
         <About />
         <Project />
         <Donate />
-        <Team />
         <Help />
+        <Team />
         <ScrollTop />
       </div>
       <Footer />

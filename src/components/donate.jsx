@@ -2,7 +2,7 @@ import React from "react";
 
 function Donate() {
   return (
-    <div id="donate" className="donate_container">
+    <div id="help" className="donate_container">
       <h1 className="donate_text">
         Let’s ensure a more equal society for the future of India’s children
       </h1>
