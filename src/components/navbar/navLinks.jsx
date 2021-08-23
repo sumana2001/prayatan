@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import styled from "styled-components";
 
 const NavLinksContainer = styled.nav`
@@ -37,36 +37,6 @@ const LinkItem = styled.li`
     transform: scaleY(0);
     transition: transform 0.3s;
     transform-origin: 50% 100%;
-  }
-
-  &:hover::after {
-    transform: scaleY(1);
-  }
-`;
-
-/*
-Kind of messy, but create another styled component without transition
-
-*/
-const ActiveLink = styled.li`
-  height: 100%;
-  padding: 0 1.1em;
-  color: #fff;
-  font-weight: 500;
-  font-size: 18px;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  position: relative;
-
-  &::after {
-    position: absolute;
-    content: "";
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 4px;
-    background-color: #fdd831;
   }
 
   &:hover::after {
