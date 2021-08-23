@@ -10,6 +10,7 @@ import About from "./components/about/about";
 import Team from "./components/team/team";
 import Help from "./components/help/help";
 import Project from "./components/projects/project";
+import Donate from "./components/donate";
 
 const loadercss = css`
   margin: 0;
@@ -45,6 +46,7 @@ function App() {
         </div>
         <About />
         <Project />
+        <Donate />
         <Team />
         <Help />
         <ScrollTop />

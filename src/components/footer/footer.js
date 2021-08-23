@@ -4,6 +4,7 @@ import {
   FaInstagram,
   FaTwitter,
   FaLinkedin,
+  FaEnvelope,
 } from "react-icons/fa";
 import {
   FooterContainer,
@@ -16,7 +17,7 @@ import {
 
 function Footer() {
   return (
-    <FooterContainer>
+    <FooterContainer id="contact">
       <SocialMedia>
         <SocialMediaWrap>
           <WebsiteRights>
@@ -24,31 +25,43 @@ function Footer() {
           </WebsiteRights>
           <SocialIcons>
             <SocialIconLink
+              href="mailto:prayatan.ekawaaz@gmail.com"
+              rel="noopener"
+              target="_blank"
+              aria-label="Email"
+            >
+              <FaEnvelope />
+            </SocialIconLink>
+            <SocialIconLink
               href="https://www.facebook.com"
               rel="noopener"
               target="_blank"
-              aria-label="Facebook">
+              aria-label="Facebook"
+            >
               <FaFacebook />
             </SocialIconLink>
             <SocialIconLink
               href="https://www.instagram.com"
               rel="noopener"
               target="_blank"
-              aria-label="Instagram">
+              aria-label="Instagram"
+            >
               <FaInstagram />
             </SocialIconLink>
             <SocialIconLink
               href="https://twitter.com"
               rel="noopener"
               target="_blank"
-              aria-label="Twitter">
+              aria-label="Twitter"
+            >
               <FaTwitter />
             </SocialIconLink>
             <SocialIconLink
               href="https://www.linkedin.com"
               rel="noopener"
               target="_blank"
-              aria-label="LinkedIn">
+              aria-label="LinkedIn"
+            >
               <FaLinkedin />
             </SocialIconLink>
           </SocialIcons>
