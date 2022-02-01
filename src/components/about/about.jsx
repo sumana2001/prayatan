@@ -20,7 +20,7 @@ export default function about() {
           />
         </Grid>
         <Grid item xs={12} sm={7}>
-          <p className="about-history">
+          <p className="about-history"  style={{textAlign:"left"}}>
             Founded in 2010 founders of Prayatan Society for Social Upliftment
             resolved to speak in one voice, a voice of change with an aim to
             reform the livelihood of those that are deprived. The founding
