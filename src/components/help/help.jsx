@@ -11,9 +11,10 @@ function Help() {
         </h3>
         <h3 style={{ textAlign: "right" }}>- Anne Frank</h3>
       </div>
+      <div class="help-list">
       <ul>
         <li>
-          <span>Donate:</span> There is no cause greater than that of helping
+          <span style={{color:"#efd249"}}>Donate:</span> There is no cause greater than that of helping
           those that are disadvantaged by the socio-economic equalities of the
           society we are living in. You can directly help support this cause by
           donating to genuine organisations working for the betterment of the
@@ -21,7 +22,7 @@ function Help() {
           a stepping stone for the country’s better future.
         </li>
         <li>
-          <span>Volunteer with us:</span> If you are passionate towards helping
+          <span style={{color:"#efd249"}}>Volunteer with us:</span> If you are passionate towards helping
           the deprived and have an ardour to bring about a change through the
           medium of education, then your ideals closely align with ours. We are
           a smaller team at the moment and are open to volunteers from all areas
@@ -32,7 +33,7 @@ function Help() {
           .
         </li>
         <li>
-          <span>
+          <span style={{color:"#efd249"}}>
             Take responsibility of the education of one child in your lifetime:
           </span>{" "}
           If we all aim to educate at least one child in the journey of our
@@ -42,7 +43,7 @@ function Help() {
           underprivileged child in your vicinity.
         </li>
         <li>
-          <span>
+          <span style={{color:"#efd249"}}>
             Research, recognize and recommend solutions for a brighter future of
             the deprived section:{" "}
           </span>{" "}
@@ -53,6 +54,7 @@ function Help() {
           multi-stakeholder solution for a brighter tomorrow.
         </li>
       </ul>
+      </div>
     </div>
   );
 }
