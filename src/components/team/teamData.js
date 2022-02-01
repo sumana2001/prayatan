@@ -77,7 +77,7 @@ const teamData2 = [
 const teamData3 = [
     {
       id: 1,
-      name: "Trianka",
+      name: "Trianka Mitter",
       image:
         "https://images.unsplash.com/photo-1597223557154-721c1cecc4b0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=80",
       desc: "A creative technology consultant by profession and a passionate social worker at heart, Trianka brings her creative expertise as a graphic designer to Prayatan’s online presence. She has previously worked with several schools for the differently abled and supported them to participate in social events and cultural performances.",
@@ -98,14 +98,14 @@ const teamData3 = [
     },
     {
       id: 4,
-      name: "Teja",
+      name: "Sai Teja",
       image:
         "https://images.unsplash.com/photo-1597223557154-721c1cecc4b0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=80",
       desc: "With an undergraduate degree in Engineering and passion for cinematography, Teja is currently a freelance film-maker based out of Bangalore. He has been an active part of all social causes since college and has been a valuable addition to Prayatan as a videographer and movie editor since 2021. ",
     },
     {
       id: 5,
-      name: "Aparna",
+      name: "Aparna Khanna",
       image:
         "https://images.unsplash.com/photo-1597223557154-721c1cecc4b0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=80",
       desc: "Aparna holds an MBA in Human Resources and has previously been an integral part of various Non governmental organisations in Chandigarh while pursuing her undergraduate degree in Sociology. She joined Prayatan in 2021 with the same zest to educate and help provide for the underprivileged.",
